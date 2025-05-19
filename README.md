@@ -26,5 +26,8 @@ SIGBug.trace_signals("puma") # process by name
 SIGBug.trace_signals(25307, 10)  # pid and duration
 ```
 
+## Why?
+Makes it easier to debug faulty behaviour, that might be related to unhandled or wrongly handled signals when doing IPC.
+
 ## Linux manpage for Signal-spesific explanations
 https://man7.org/linux/man-pages/man7/signal.7.html
